@@ -1,2 +1,31 @@
+li{
+	display: inline-block;
+	padding: 0 20px 0 20px;
+}
+li:hover{
+	transition: 0.5s;
+	background-color: green;
+	border: blue solid 10px;
+	color: white;
+	font-size: 20px;
+}
+div{
+	text-align:center;
+}
+button:hover{
+	color: white;
+	filter: brightness(75%);
+}
 
+button{
+	padding: 30px 25px;
+}
+.btn-1{
+	background-color: orange;
+}
+.btn-2{
+	background-color: darkred;
+}
+.btn-3{
+	background-color: blue;
 }
